@@ -10,7 +10,7 @@ export default {
    methods : {
    increment : function (){
     
-     this.COUNT = this.COUNT + 1
+     this.COUNT = this.COUNT + 1 
    },
    decrement : function () {
     if(this.COUNT === 0){

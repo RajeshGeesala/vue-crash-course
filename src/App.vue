@@ -4,7 +4,8 @@
       <div class="col"><p class="h3 text-success fw-boled"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, deserunt laborum totam rerum, minus natus ducimus expedita earum officia cupiditate distinctio illo rem, a porro? Consequuntur libero natus tempore at?</p>
       <CustomerDetail name="Rajesh" age="26" designation="Engineer"/> 
     <EmployeeDetail/>
-  <CounterComponent/> </div>
+  <CounterComponent/>
+<FunctionParam/> </div>
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@
 import CounterComponent from './components/CounterComponent.vue';
 import CustomerDetail from './components/CustomerDetail.vue';
 import EmployeeDetail from './components/EmployeeDetail.vue';
+import FunctionParam from './components/FunctionParam.vue';
 
 
 export default {
@@ -21,8 +23,8 @@ export default {
   components : {
     CustomerDetail, // Add Customers to the components object
     EmployeeDetail,
-    CounterComponent
-
+    CounterComponent ,
+    FunctionParam
   }
 
 }
