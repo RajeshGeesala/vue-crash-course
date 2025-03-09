@@ -1,16 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <div class="grid">
+      <div class="col"><p class="h3 text-success fw-boled"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, deserunt laborum totam rerum, minus natus ducimus expedita earum officia cupiditate distinctio illo rem, a porro? Consequuntur libero natus tempore at?</p>
+      <CustomerDetail name="Rajesh" age="26" designation="Engineer"/> 
+    <EmployeeDetail/>
+  <CounterComponent/> </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import CounterComponent from './components/CounterComponent.vue';
+import CustomerDetail from './components/CustomerDetail.vue';
+import EmployeeDetail from './components/EmployeeDetail.vue';
+
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components : {
+    CustomerDetail, // Add Customers to the components object
+    EmployeeDetail,
+    CounterComponent
+
   }
+
 }
 </script>
 
@@ -20,7 +34,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #e90606;
   margin-top: 60px;
 }
 </style>
