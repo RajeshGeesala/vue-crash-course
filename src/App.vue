@@ -5,7 +5,8 @@
       <CustomerDetail name="Rajesh" age="26" designation="Engineer"/> 
     <EmployeeDetail/>
   <CounterComponent/>
-<FunctionParam/> </div>
+<FunctionParam/> 
+<FormComponent/></div>
     </div>
   </div>
 </template>
@@ -16,7 +17,7 @@ import CounterComponent from './components/CounterComponent.vue';
 import CustomerDetail from './components/CustomerDetail.vue';
 import EmployeeDetail from './components/EmployeeDetail.vue';
 import FunctionParam from './components/FunctionParam.vue';
-
+import FormComponent from './components/FormComponent.vue';
 
 export default {
   name: 'App',
@@ -24,7 +25,8 @@ export default {
     CustomerDetail, // Add Customers to the components object
     EmployeeDetail,
     CounterComponent ,
-    FunctionParam
+    FunctionParam ,
+    FormComponent
   }
 
 }
